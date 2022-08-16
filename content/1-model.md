@@ -37,13 +37,15 @@ can be added and tested at any time.
 
 ## Using This Pillar in Isolation
 
-Ideally, application code is _only_ concerned with the names of
-features and uses run-time PriceOps tooling to determine whether
-to deliver a feature to a customer, allowing Product and
+Application code should _only_ be concerned with the names of
+features and use run-time PriceOps tooling to determine whether
+to deliver a feature to a customer. This allows Product and
 Marketing teams to iterate on plan definitions freely.
 
 However, without integration of a Customer Schedule management,
 Metering, and Entitlement Checking, application code cannot
 remain fully agnostic as to the plan that a customer is currently
 on.  Thus, it is tempting to hard-code plan names into
-application code, preventing iterative experimentation.
+application code, preventing iterative experimentation.  Care
+must be taken to ensure that application code remains properly
+isolated from pricing model definition.
