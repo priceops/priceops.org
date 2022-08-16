@@ -60,8 +60,8 @@ organization, exponentially increasing the cost of iteration.
    purchase flow, billing, and feature delivery.
 2. Separation of Ownership: changes in one area do not require
    tightly-coupled changes in any other area.
-3. Pricing plans can be changed or updated without changing
-   application code, or affecting existing customers.
+3. Pricing plans can be added without changing application code,
+   or affecting existing customers.
 
 Many organizations have come to solutions similar to the 5
 Pillars of PriceOps, often at the end of a long and costly
