@@ -1,13 +1,20 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  font-size:1.2em;
+  font-size: 1.2em;
   font-family: Times New Roman, serif;
-  width: 48rem;
-  margin: 1em auto;
-  padding-bottom: 3em;
+  width: 64rem;
+  line-height: 1.5em;
+  max-width: 100%;
+  margin: 1em auto 0;
+  padding: 0;
 }
 
 a {
@@ -17,22 +24,62 @@ a {
 a:visited {
   color: #008;
 }
-a:active, a:hover, a:focus {
+a:active,
+a:hover,
+a:focus {
   text-decoration: underline;
   color: #f00;
 }
 
-header {
+header h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
-header a, header a:visited {
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+header ul {
+  width: 100%;
+}
+header li {
+  width: 20%;
+}
+header ul,
+header li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+header a,
+header a:visited {
   display: block;
+  width: 100%;
   text-align: center;
   padding: 1em 0;
-  color: #fff;
-  background: #369;
-  text-decoration: none!important;
-  font-weight: normal;
-  font-size: 2em;
+  color: #eee;
+  background: #333;
+  text-decoration: none !important;
+}
+header a:hover, header a:active, header a:focus {
+  text-decoration: underline !important;
+}
+header h1 a, header h1 a:visited {
+  color: #333;
+  background: #ccc;
 }
 
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 4em auto;
+  padding: 1em 0;
+  color: #ccc;
+  background: #333;
+}
+footer a {
+  color: #eee !important;
+}
+footer p {
+  padding: 0;
+}

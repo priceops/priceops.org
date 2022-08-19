@@ -12,6 +12,13 @@
     <header>
       <nav>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <ul>
+        <li><a href="/1-model">Model</a></li>
+        <li><a href="/2-schedule">Schedule</a></li>
+        <li><a href="/3-metering">Metering</a></li>
+        <li><a href="/4-entitlement">Entitlements</a></li>
+        <li><a href="/5-tooling">Tooling</a></li>
+      </ul>
       </nav>
     </header>
 
@@ -20,6 +27,13 @@
 {{ content | safe }}
 
     </main>
+
+    <footer>
+      <p>priceops.org &copy; 2022 by <a href="https://tier.run">Tier, Inc.</a></p>
+
+      <p><a href="{{ metadata.repository | url }}/blob/main/LICENSE.md">license<a>
+       ~ <a href="{{ metadata.repository | url }}">source</a>
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
