@@ -1,7 +1,3 @@
----
-title: 5 Pillars of PriceOps
----
-
 ## Introduction
 
 Many products today are delivered as a service, with a tiered

@@ -1,0 +1,36 @@
+{
+  "name": "@tier.run/priceops.org",
+  "version": "1.0.0",
+  "description": "The content for https://priceops.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tierdev/priceops.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/tierdev/priceops.org/issues"
+  },
+  "homepage": "https://github.com/tierdev/priceops.org#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.3.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 75,
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "jsxSingleQuote": false,
+    "bracketSameLine": true,
+    "arrowParens": "avoid",
+    "endOfLine": "lf"
+  }
+}
