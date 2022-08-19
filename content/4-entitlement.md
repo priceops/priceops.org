@@ -45,9 +45,9 @@ When used as a gate for paid features, this can be very powerful
 on its own, as it keeps application code focused on features,
 rather than having to be aware of the details of a pricing model.
 
-However, if feature flags are not automatically set based on
-[usage](./3-metering.md) and set [automatically](./5-tooling.md),
-then this can involve manual steps, which are prone to error.
+However, if feature flags are not [automatically](./5-tooling.md)
+set based on [usage](./3-metering.md), then this can involve
+manual steps, which are prone to error.
 
 Additionally, if feature flags are defined in an ad hoc manner,
 rather than being [deterministically generated](./5-tooling.md)
