@@ -26,8 +26,9 @@ can be added and tested at any time.
 
 ## Values Provided By This Pillar
 
-1. It is impossible to inadvertently change a customer's current
-   plan, making it safe to test new plan iterations.
+1. It is impossible to inadvertently change a customer's [current
+   plan](./2-schedule.md), making it safe to test new plan
+   iterations.
 2. The entirety of a pricing model for a product is retrievable
    as a single data source, with no chance to overlook
    out-of-band discounts and adjustments.
@@ -38,14 +39,16 @@ can be added and tested at any time.
 ## Using This Pillar in Isolation
 
 Application code should _only_ be concerned with the names of
-features and use run-time PriceOps tooling to determine whether
-to deliver a feature to a customer. This allows Product and
-Marketing teams to iterate on plan definitions freely.
+features and use run-time [PriceOps tooling](./5-tooling.md) to
+[determine whether to deliver](./4-entitlement.md) a feature to a
+customer. This allows Product and Marketing teams to iterate on
+plan definitions freely.
 
-However, without integration of a Customer Schedule management,
-Metering, and Entitlement Checking, application code cannot
-remain fully agnostic as to the plan that a customer is currently
-on.  Thus, it is tempting to hard-code plan names into
+However, without integration of [Customer Schedule
+management](./2-schedule.md), [Metering](./3-metering.md), and
+[Entitlement Checking](./4-entitlement.md), application code
+cannot remain fully agnostic as to the plan that a customer is
+currently on. Thus, it is tempting to hard-code plan names into
 application code, preventing iterative experimentation.  Care
 must be taken to ensure that application code remains properly
 isolated from pricing model definition.

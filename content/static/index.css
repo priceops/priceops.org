@@ -69,6 +69,10 @@ header h1 a, header h1 a:visited {
   background: #ccc;
 }
 
+main h1 {
+  padding: 0.5em 0;
+}
+
 footer {
   font-size: 0.8em;
   text-align: center;

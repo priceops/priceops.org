@@ -10,11 +10,12 @@ appended to the Customer schedule.
 Each plan named in the schedule is a reference to one of the
 plans listed in the [Pricing Model](./1-model.md).
 
-The plans in effect at the time of feature consumption determines
-the amount that a customer is billed.
+The plans in effect at the time of [feature
+consumption](./3-metering.md) determines the amount that a
+customer is billed.
 
-PriceOps tooling is used to append a new phase to a customer
-schedule any time it is appropriate:
+[PriceOps tooling](./5-tooling.md) is used to append a new phase
+to a customer schedule any time it is appropriate:
 
 - On initial sign-up.
 - When the user selects a new plan during upgrade or downgrade.
@@ -35,9 +36,8 @@ charges.
 
 ## Values Provided By This Pillar
 
-1. A historical record of customer plan changes is extremely
-   useful for analyzing the effectiveness of product and
-   packaging changes.
+1. A record of customer plan changes is extremely useful for
+   analyzing the effectiveness of product and packaging changes.
 2. A historical or prospective bill can be calculated at any
    point, based on the plans in effect at a given time.
 3. PriceOps tooling prevents out-of-band changes to customer
