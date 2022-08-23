@@ -1,4 +1,3 @@
-## Introduction
 
 Many products today are delivered as a service, with a tiered
 pricing model based on access to the service ("seats"), a measure
@@ -36,10 +35,16 @@ with the market.  As the landscape evolves and the organization
 learns from interactions with the market, the pricing structure
 of a product must evolve.
 
+It is unlikely that a product's optimal pricing will be arrived
+at without direct contact with the market, and even more unlikely
+that the optimal pricing today will remain so for long.
+Therefor, a pricing implementation _must_ facilitate responsive
+iteration.
+
 Poorly managed pricing is a common and costly problem.  Once
 implemented, a pricing model quickly comes to be enmeshed in
 multiple interdependent aspects of the organization.  Pricing
-changes often introduce engineering instability, and distract
+changes introduce engineering instability, and distract
 engineering teams from improvements to the product itself.
 Product and marketing teams beg for resources and are unable to
 use the single most powerful tool to reposition packaging.  Sales
@@ -47,8 +52,10 @@ and support end up with a sprawling list of out-of-band
 adjustments to close deals and keep customers happy, which
 introduces further instability.
 
-Thus, changes in any area require changes across the
-organization, exponentially increasing the cost of iteration.
+Changes in any area require changes across the organization,
+introducing instability.  Each change to the pricing model tends
+to increase this instability, exponentially increasing the cost
+of iteration.
 
 ## The Shape of a Solution
 
@@ -64,14 +71,13 @@ Pillars of PriceOps, often at the end of a long and costly
 process.  There are several tools available to address parts of
 this problem, which can work well together.  If built from the
 ground up according to the 5 Pillars of PriceOps, a SaaS product
-has a much higher chance of success.  The alternative is to get
-extremely lucky.
+has a much higher chance of success.
 
 ## The 5 Pillars
 
 ### [1. Pricing Model Definition](./1-model.md)
 
-The pricing model is an append-only collection of **versioned**
+The pricing model is an append-only collection of versioned
 plans.  Specific plan versions are immutable, so that adding new
 plan definitions will not affect existing users.
 
