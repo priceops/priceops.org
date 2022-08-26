@@ -1,4 +1,3 @@
-
 Many products today are delivered as a service, with a tiered
 pricing model based on access to the service ("seats"), a measure
 of consumption of the some aspect of the service ("metering"), or
@@ -14,6 +13,20 @@ Everyone involved in the architecture and design of SaaS
 applications would benefit from adopting this methodology, but
 especially: engineering and product leaders, and founders of
 companies starting or re-evaluating their monetization journey.
+
+## What PriceOps Is (and Is Not)
+
+PriceOps is a methodology that enables iteration and flexibility.
+It describes a set of implementation properties that facilitate
+pricing model exploration by effectively managing inherent
+complexity.
+
+It is _not_ a prescriptive guideline about how any particular
+product should be priced, or how such a price should be
+determined.  Rather, it is, a guideline for how a pricing model
+must be implemented to maximize flexitility and stability.
+
+**PriceOps is how to operate the pricing.**
 
 ## Background
 
