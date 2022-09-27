@@ -74,14 +74,30 @@ main h1 {
 footer {
   font-size: 0.8em;
   text-align: center;
-  margin: 4em auto;
+  margin: 0 auto 4em;
   padding: 1em 0;
   color: #ccc;
   background: #333;
 }
-footer a {
+footer.license a {
   color: #eee !important;
 }
-footer p {
+footer.license p {
   padding: 0;
+}
+footer.subscribe {
+  margin: 4em auto 0;
+  background: #fff;
+  color: inherit;
+  font-size: 1em;
+  padding: 0!important;
+}
+footer.subscribe p {
+  padding: 0;
+  margin: 0;
+}
+footer.subscribe a {
+  display: block;
+  padding: 1em 0;
+  margin: 0;
 }
