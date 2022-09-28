@@ -19,12 +19,14 @@ companies starting or re-evaluating their monetization journey.
 PriceOps is a methodology that enables iteration and flexibility.
 It describes a set of implementation properties that facilitate
 pricing model exploration by effectively managing inherent
-complexity.
+complexity.  Think of this as a set of architecture blueprints
+and best practices, which can assist in the ongoing development
+and refinement of your pricing infrastructure.
 
-It is _not_ a prescriptive guideline about how any particular
-product should be priced, or how such a price should be
-determined.  Rather, it is, a guideline for how a pricing model
-must be implemented to maximize flexitility and stability.
+PriceOps is _not_ a prescriptive guideline about how any
+particular product should be priced, or how such a price should
+be determined.  Rather, it is, a guideline for how a pricing
+model must be implemented to maximize flexitility and stability.
 
 **PriceOps is how to operate the pricing.**
 
