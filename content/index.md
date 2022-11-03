@@ -113,7 +113,7 @@ even if they are currently free or unlimited.
 
 ### [4. Entitlement Checking](./4-entitlement.md)
 
-Entitlement to a given feature is always be determined by
+Entitlement to a given feature is always determined by
 reference to the single source of truth about the customer's
 schedule and the pricing model.  Application code remains
 agnostic as to the names or versions of plans within the pricing
