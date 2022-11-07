@@ -4,15 +4,15 @@
   "description": "The content for https://priceops.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tierdev/priceops.org.git"
+    "url": "git+https://github.com/priceops/priceops.org.git"
   },
   "keywords": [],
   "author": "",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/tierdev/priceops.org/issues"
+    "url": "https://github.com/priceops/priceops.org/issues"
   },
-  "homepage": "https://github.com/tierdev/priceops.org#readme",
+  "homepage": "https://github.com/priceops/priceops.org#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "prettier": "^2.7.1"
