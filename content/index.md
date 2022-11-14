@@ -1,6 +1,6 @@
 Many products today are delivered as a service, with a tiered
 pricing model based on access to the service ("seats"), a measure
-of consumption of the some aspect of the service ("metering"), or
+of consumption of some aspect of the service ("metering"), or
 some combination of these.
 
 The 5 Pillars of PriceOps define a methodology for pricing model
@@ -25,8 +25,8 @@ and refinement of your pricing infrastructure.
 
 PriceOps is _not_ a prescriptive guideline about how any
 particular product should be priced, or how such a price should
-be determined.  Rather, it is, a guideline for how a pricing
-model must be implemented to maximize flexitility and stability.
+be determined.  Rather, it is a guideline for how a pricing
+model must be implemented to maximize flexibility and stability.
 
 **PriceOps is how to operate the pricing.**
 
@@ -53,7 +53,7 @@ of a product must evolve.
 It is unlikely that a product's optimal pricing will be arrived
 at without direct contact with the market, and even more unlikely
 that the optimal pricing today will remain so for long.
-Therefor, a pricing implementation _must_ facilitate responsive
+Therefore, a pricing implementation _must_ facilitate responsive
 iteration.
 
 Poorly managed pricing is a common and costly problem.  Once
